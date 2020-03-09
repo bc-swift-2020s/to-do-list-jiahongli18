@@ -26,9 +26,13 @@ class ListTableViewCell: UITableViewCell {
         }
     }
     
-    @IBAction func checkToggled(_ sender: Any) {
-        delegate?.checkBoxToggle(sender: self)
-    }
+//    @IBAction func checkToggled(_ sender: Any) {
+//        delegate?.checkBoxToggle(sender: self)
+//    }
+    
+//    @IBAction func checkToggled(_ sender: Any) {
+//        delegate?.checkBoxToggle(sender: self)
+//    }
     
     
 }

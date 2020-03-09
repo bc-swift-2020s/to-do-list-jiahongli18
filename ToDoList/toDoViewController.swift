@@ -25,7 +25,7 @@ class toDoViewController: UIViewController {
             self.tableView.reloadData()
         }
         
-        LocalNotificationManager.authorizeLocalNotification()
+        LocalNotificationManager.authorizeLocalNotification(viewController: self)
     }
     
     func saveData() {
