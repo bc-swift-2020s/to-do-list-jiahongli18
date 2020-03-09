@@ -15,6 +15,9 @@
 		A00F318C23ED0E86005D9FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00F318A23ED0E86005D9FA9 /* LaunchScreen.storyboard */; };
 		A00F319423ED22CE005D9FA9 /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F319323ED22CE005D9FA9 /* ToDoDetailTableViewController.swift */; };
 		A00F319623EDE38B005D9FA9 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F319523EDE38B005D9FA9 /* ToDoItem.swift */; };
+		A05A4C382415E58500F9C2D9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A4C372415E58500F9C2D9 /* ListTableViewCell.swift */; };
+		A05A4C3A2415EF8E00F9C2D9 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A4C392415EF8E00F9C2D9 /* ToDoItems.swift */; };
+		A05A4C3C2415F34D00F9C2D9 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A4C3B2415F34D00F9C2D9 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		A00F318D23ED0E86005D9FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A00F319323ED22CE005D9FA9 /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		A00F319523EDE38B005D9FA9 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		A05A4C372415E58500F9C2D9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		A05A4C392415EF8E00F9C2D9 /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		A05A4C3B2415F34D00F9C2D9 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +68,12 @@
 			children = (
 				A00F317F23ED0E83005D9FA9 /* AppDelegate.swift */,
 				A00F318123ED0E83005D9FA9 /* SceneDelegate.swift */,
+				A05A4C3B2415F34D00F9C2D9 /* LocalNotificationManager.swift */,
 				A00F319523EDE38B005D9FA9 /* ToDoItem.swift */,
+				A05A4C392415EF8E00F9C2D9 /* ToDoItems.swift */,
 				A00F318323ED0E83005D9FA9 /* toDoViewController.swift */,
 				A00F319323ED22CE005D9FA9 /* ToDoDetailTableViewController.swift */,
+				A05A4C372415E58500F9C2D9 /* ListTableViewCell.swift */,
 				A00F318523ED0E83005D9FA9 /* Main.storyboard */,
 				A00F318823ED0E86005D9FA9 /* Assets.xcassets */,
 				A00F318A23ED0E86005D9FA9 /* LaunchScreen.storyboard */,
@@ -145,10 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00F318423ED0E83005D9FA9 /* toDoViewController.swift in Sources */,
+				A05A4C3A2415EF8E00F9C2D9 /* ToDoItems.swift in Sources */,
 				A00F318023ED0E83005D9FA9 /* AppDelegate.swift in Sources */,
 				A00F319623EDE38B005D9FA9 /* ToDoItem.swift in Sources */,
 				A00F319423ED22CE005D9FA9 /* ToDoDetailTableViewController.swift in Sources */,
 				A00F318223ED0E83005D9FA9 /* SceneDelegate.swift in Sources */,
+				A05A4C3C2415F34D00F9C2D9 /* LocalNotificationManager.swift in Sources */,
+				A05A4C382415E58500F9C2D9 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
